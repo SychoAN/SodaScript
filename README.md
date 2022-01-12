@@ -1,4 +1,10 @@
-# Created By AbdullahNabil & Ehab Emad
+#USAGE:
+There are many ways to run a PowerShell script, and we mention to the easiest & fastest:
+
+WAY 1:
+
+
+#Created By AbdullahNabil & Ehab Emad
 This Script Optimizies Windows 10
 Editing on registry, settings, Disabling Services ,Optimizes Ping & PacketLoss
 #----------------------------------------
