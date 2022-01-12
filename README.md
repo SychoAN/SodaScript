@@ -1,8 +1,14 @@
-#USAGE:
+# USAGE:
+
 There are many ways to run a PowerShell script, and we mention to the easiest & fastest:
 
-WAY 1:
+**WAY 1:**
 
+- Download the latest release of the SodaScript from the [releases](https://www.google.com) page.
+- Right-click the 'SodaScript' PS1 file, then click 'Run with PowerShell'
+- Accept the UAC Prompt. - Accept the Execution Policy Change.
+
+**WAY 2:**
 
 #Created By AbdullahNabil & Ehab Emad
 This Script Optimizies Windows 10
