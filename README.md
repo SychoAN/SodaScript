@@ -1,52 +1,58 @@
-# USAGE:
+# SODASCRIPT - Refresh your Windows experience
 
-There are many ways to run a PowerShell script, and we mention to the easiest & fastest:
+As Mentos fizzes the Soda!
 
-**WAY 1:**
+## DESCRIPTION
 
-- Download the latest release of the SodaScript from the [releases](https://www.google.com) page.
-- Right-click the 'SodaScript' PS1 file, then click 'Run with PowerShell'
-- Accept the UAC Prompt. - Accept the Execution Policy Change.
+An advanced & integrated PowerShell script, -more than any other PowerShell script-, optimizes Windows 10 performance to the maximum, while maintaining a stable, and bug-free system.
 
-**WAY 2:**
+## DOWNLOAD
 
-#Created By AbdullahNabil & Ehab Emad
-This Script Optimizies Windows 10
-Editing on registry, settings, Disabling Services ,Optimizes Ping & PacketLoss
-#----------------------------------------
-####### FIRST YOU NEED TO STOP YOU ANTIVIRUS ###########
-#----------------------------------------
-1)Remove All Bloatware
--This Will remove the following APPS
-{3DBuilder, BingWeather, GetHelp, Getstarted, HEIFImageExtension, Messaging, 3DViewer, OfficeHub, SolitaireCollection ,StickyNotes, MixedReality.Portal, MSPaint ,OneNote, Office, OneConnect, People, ScreenSketch, SkypeApp, VP9VideoExtensions, Wallet, WebMediaExtensions, PhotoViewer ,Alarms ,Calculator ,Camera ,Maps , FeedbackHub, YourPhoneو SoundRecorder}
-#----------------------------------------
-2)Windows & Gaming Tweaks
--This Will Edit on windows Settings,Registry,Services,Schudeld Tasks
--Everything Safe to disable and effcting on Performance...
--Restoring Old PhotoViewer , Old Calculator
--Ping&PacketLoss Tweaks
--Changing Windows PowerPlan For Betterone & Faster (Only For Desktop) #Credit ggos developers
--SodaTools-> Click Ctrl+F1 To Optimize Ram & Click Ctrl+F2 To Clean Temp Files
-#----------------------------------------
-3)Storage Tweaks
--Tweaks For HDD AND SSD
--IT will ask you if u did install windows on SSD
-#----------------------------------------
-4)Graphics Card Tweaks
--Tweaking All Cards AMD,Nvidia,Intel
--ATI IS NOT SUPPORTED !
-#----------------------------------------
-5)Cleaner
--Deep Windows Cleaner->
--Removes LogFiles, Windows CacheFiles, deletes prefetch, Flushes Dns.
-#----------------------------------------
-6)Advanced
-1-More For Low End Device (IF NOT USING WIFI)->
--Removes Microsoft Store, Disabling StartMenu and Replacing it with OLD & Faster, Disables Windows Notfications, Disables RuntimeBroker That Needed For WIFI Network Tray icon.
-2-Less Security->
--Tweaks That Affecting On Security and opens ثغرات.......اكتبها انتا بتفتح ثغرات 
-3-No Printer->
--Disables Printer IF NOT USING IT.
-4-Old Theme (For very bad device)->
--This For Dead Devices, Improves System Performance.
-#----------------------------------------
+Download the latest Soda release:
+
+[Download [.zip archive]](LINK_HERE)
+
+## USAGE
+
+There are many ways to run a PowerShell script, and we will refer to these diffrent ways:
+
+**First Way:** 
+
+1. Download Soda .zip archive from the [DOWNLOAD](LINK_HERE) section above, and extract it in some path.
+
+2. Navigate to the path where you extracted the .zip archive, and from File Explorer menu: click on ```File```, highlight ```Open Windows PowerShell```, and click on ```Open Windows PowerShell as administrator``` as in the image below:
+
+![Alt Test]()
+
+3. ```Set-ExecutionPolicy Unrestricted -Force```
+
+4. ```.\SodaScript.ps1```
+
+
+**Second Way:** 
+
+1. Download Soda .zip archive from the [DOWNLOAD](LINK_HERE) section above, and extract it in some path.
+
+2. Navigate to the path where you extracted the .zip archive, locate ```SodaScript.ps1``` file, Right-click on it, and click on ```Run with PowerShell```.
+
+3. Accept the User Account Control (UAC) prompt.
+
+4. Accept the Execution Policy Change.
+
+## SUPPORT
+
+If you like our project, feel free, and support us with a cup of coffee! <3
+
+[PayPal](LINK_HERE)
+
+Your support will reflect our development for the better.
+
+## CONTACT
+
+[Subscribe to SychoAN YouTube channel](https://www.youtube.com/c/SychoAN)
+
+## CREDITS
+
+- Abdullah Nabil - [SychoAN](https://t.me/Sycho_AN)
+
+- Ehab Emad - [Ehab05](https://t.me/Ehab05)
