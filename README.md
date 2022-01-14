@@ -12,6 +12,14 @@ Download the latest Soda release:
 
 [Download [.zip archive]](LINK_HERE)
 
+## WARNING
+
+While the Soda downloads files from the Internet (ex: Power Plan profiles), Microsoft Defender suspects Soda, stops the script, and deletes the script with the files. You must disable Microsoft Defender before you start!
+
+The most popular & intelligent antiviruses might not suspect Soda, but we recommend you to turn it off to avoid any potential error during the process.
+
+If you suspect that a script may harm your device, remember that it is open source, and everything it does is clear.
+
 ## USAGE
 
 There are many ways to run a PowerShell script, and we will refer to these diffrent ways:
@@ -39,11 +47,23 @@ There are many ways to run a PowerShell script, and we will refer to these diffr
 
 4. Accept the Execution Policy Change.
 
+## KNOWN ISSUES
+
+### Windows ```Night Light``` Feature
+
+If you are using this feature, we recommend you to use a well-known third-party software like [F.LUX](https://justgetflux.com).
+
+### Sleep power mode does not work
+
+We have added a Fix For this in Fixs Menu.
+
+***We intend to resolve known issues as soon as possible.***
+
 ## SUPPORT
 
 If you like our project, feel free, and support us with a cup of coffee! <3
 
-[PayPal](LINK_HERE)
+[PayPal](https://paypal.me/Donateme92?country.x=EG&locale.x=ar_EG)
 
 Your support will reflect our development for the better.
 
