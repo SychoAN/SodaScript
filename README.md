@@ -49,7 +49,7 @@ Your support will reflect our development for the better.
 
 ## CONTACT
 
-[Subscribe to SychoAN YouTube channel](https://www.youtube.com/c/SychoAN)
+[Subscribe to SychoAN YouTube channel](https://www.youtube.com/c/SychoAN?sub_confirmation=1)
 
 ## CREDITS
 
