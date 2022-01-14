@@ -22,7 +22,7 @@ There are many ways to run a PowerShell script, and we will refer to these diffr
 
 2. Navigate to the path where you extracted the .zip archive, and from File Explorer menu: click on ```File```, highlight ```Open Windows PowerShell```, and click on ```Open Windows PowerShell as administrator``` as in the image below:
 
-![Alt Test]()
+![Alt Test](http://upload.wikimedia.org/wikipedia/en/thumb/0/04/File_Explorer_Icon.png/64px-File_Explorer_Icon.png)
 
 3. ```Set-ExecutionPolicy Unrestricted -Force```
 
