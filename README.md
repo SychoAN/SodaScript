@@ -6,7 +6,7 @@ As Mentos fizzes the Soda!
 
 An advanced & integrated PowerShell script, -more than any other PowerShell script-, optimizes Windows 10 performance to the maximum, while maintaining a stable, and bug-free system..
 
-## COMPATIBILITY:
+## COMPATIBILITY
 
 Soda focuses and works efficiently on the latest versions of Windows 10 supported by Microsoft. (21H2:20H2)
 
