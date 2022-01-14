@@ -22,7 +22,7 @@ However, we are planning to release a new Soda ready for Windows 11 in the near 
 
 Download the latest Soda release:
 
-[Download [.zip archive]](LINK_HERE)
+[Download](https://github.com/SychoAN/SodaScriptTEST/releases/download/Powershell/test.ps1)
 
 ## WARNING
 
