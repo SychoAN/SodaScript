@@ -21,6 +21,7 @@ The most popular & intelligent antiviruses might not suspect Soda, but we recomm
 If you suspect that a script may harm your device, remember that it is open source, and everything it does is clear.
 
 ## USAGE
+There are many ways to run a PowerShell script, and we will refer to the easiest & fastest:
 
 1. Download Soda .zip archive from the [DOWNLOAD](https://github.com/SychoAN/SodaScriptTEST/blob/main/README.md#download) section above, and extract it in some path.
 
