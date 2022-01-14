@@ -31,7 +31,7 @@ There are many ways to run a PowerShell script, and we will refer to these diffr
 
 **Second Way:** 
 
-1. Download Soda .zip archive from the [DOWNLOAD](LINK_HERE) section above, and extract it in some path.
+1. Download Soda .zip archive from the [DOWNLOAD](https://github.com/SychoAN/SodaScriptTEST/blob/main/README.md#download) section above, and extract it in some path.
 
 2. Navigate to the path where you extracted the .zip archive, locate ```SodaScript.ps1``` file, Right-click on it, and click on ```Run with PowerShell```.
 
@@ -50,6 +50,8 @@ Your support will reflect our development for the better.
 ## CONTACT
 
 [Subscribe to SychoAN YouTube channel](https://www.youtube.com/c/SychoAN?sub_confirmation=1)
+
+![Alt Test](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/320px-YouTube_Logo_2017.svg.png)
 
 ## CREDITS
 
