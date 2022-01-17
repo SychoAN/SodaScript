@@ -53,6 +53,9 @@ If you are using this feature, we recommend you to use a well-known third-party 
 
 We have added a Fix For this in Fixs Menu.
 
+### AMD Tweaks
+We Have removed AMD tweaks from the script until fixing it...
+
 ***We intend to resolve known issues as soon as possible.***
 
 ## SUPPORT
