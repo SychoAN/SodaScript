@@ -1,4 +1,4 @@
-# SODA SCRIPT - Refresh your Windows experience
+# SODASCRIPT - Refresh your Windows experience
 
 As Mentos fizzes the Soda!
 
