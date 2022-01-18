@@ -70,6 +70,8 @@ Your support will reflect our development for the better.
 
 [Join Soda Server ON Discord](https://discord.gg/pntZBNnkGS)
 
+![Alt Test2](https://www.svgrepo.com/show/353655/discord-icon.svg)
+
 [Subscribe to SychoAN YouTube channel](https://www.youtube.com/c/SychoAN?sub_confirmation=1)
 
 ![Alt Test](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/320px-YouTube_Logo_2017.svg.png)
