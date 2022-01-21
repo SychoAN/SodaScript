@@ -76,7 +76,7 @@ Your support will reflect our development for the better.
 
 ![Alt Test](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/320px-YouTube_Logo_2017.svg.png)
 
-## CREDITS
+# Telegram:
 
 - Abdullah Nabil - [SychoAN](https://t.me/Sycho_AN)
 
