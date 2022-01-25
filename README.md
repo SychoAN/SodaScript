@@ -56,6 +56,9 @@ We have added a Fix For this in Fixs Menu.
 ### AMD Tweaks
 We Have removed AMD tweaks from the script until fixing it...
 
+### Android Emulators 
+Keyboard & Mouse not responding on Android Emulators. We Are Working on this...
+
 ***We intend to resolve known issues as soon as possible.***
 
 ## SUPPORT
@@ -76,8 +79,6 @@ Your support will reflect our development for the better.
 
 ![Alt Test](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/320px-YouTube_Logo_2017.svg.png)
 
-# Telegram:
+- Abdullah Nabil - [Telegram](https://t.me/Sycho_AN)
 
-- Abdullah Nabil - [SychoAN](https://t.me/Sycho_AN)
-
-- Ehab Emad - [Ehab05](https://t.me/Ehab05)
+- Ehab Emad - [Telegram](https://t.me/Ehab05)
