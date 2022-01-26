@@ -56,9 +56,6 @@ We have added a Fix For this in Fixs Menu.
 ### AMD Tweaks
 We Have removed AMD tweaks from the script until fixing it...
 
-### Android Emulators 
-Keyboard & Mouse not responding on Android Emulators. We Are Working on this...
-
 ***We intend to resolve known issues as soon as possible.***
 
 ## SUPPORT
