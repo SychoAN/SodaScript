@@ -49,9 +49,6 @@ There are many ways to run a PowerShell script, and we will refer to the easiest
 
 If you are using this feature, we recommend you to use a well-known third-party software like [F.LUX](https://justgetflux.com).
 
-### AMD Tweaks
-We Have removed AMD tweaks from the script until fixing it...
-
 ***We intend to resolve known issues as soon as possible.***
 
 ## SUPPORT
