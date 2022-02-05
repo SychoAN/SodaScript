@@ -4,7 +4,7 @@ As Mentos fizzes the Soda!
 
 ## DESCRIPTION
 
-An advanced & integrated PowerShell script, -more than any other PowerShell script-, optimizes Windows 10 performance to the maximum, while maintaining a stable, and bug-free system..
+An advanced & integrated PowerShell script, -more than any other PowerShell script-,Soda Script optimizes Windows 10 performance to the maximum, while maintaining a stable, and bug-free system..
 
 ## COMPATIBILITY
 
