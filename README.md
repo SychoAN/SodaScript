@@ -22,7 +22,7 @@ However, we are planning to release a new Soda ready for Windows 11 in the near 
 
 Download the latest Soda release:
 
-[Download](https://github.com/SychoAN/SodaScript/releases/download/Version2.2/SodaScript_v2.2.ps1)
+[Download](https://github.com/SychoAN/SodaScript/releases/download/2.4/SodaScript.ps1)
 
 ## WARNING
 
