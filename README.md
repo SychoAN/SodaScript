@@ -104,11 +104,13 @@ New Gaming Tweaks !
 Fixed Security and Maintence Error Notification !
 
 ```SodaScript 2.6```
+
 Update Checker !
 
 Better Information While Working !
 
 ```SodaScript 2.5```
+
 Fixed Creating Program Files Folder.
 
 Added Clean Memory With Shortcut Ctrl+F1
@@ -116,6 +118,7 @@ Added Clean Memory With Shortcut Ctrl+F1
 Added Clean Temp With Shortcut Ctrl+F2
 
 ```SodaScript 2.4```
+
 Fixed Output Errors
 
 More Animation Tweaks !
@@ -133,6 +136,7 @@ Fixed More For Low end pc Selection Errors...
 Fixed thumbnails issue
 
 ```SodaScript 2.3```
+
 Fixed Nvidia DLL Error Message
 
 Disabled Open File security warning
@@ -140,9 +144,11 @@ Disabled Open File security warning
 General Bug Fixes
 
 ```SodaScript 2.2```
+
 General Bug Fixing
 
 ```SodaScript 2.1```
+
 Fixed Security and Maintence Error Message !
 
 Disabled Windows Sounds !
