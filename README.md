@@ -73,6 +73,7 @@ Your support will reflect our development for the better.
 
 ## ChangeLog
 ```SodaScript_v2.8```
+
 Browsers Tweaks 💯
 
 Microsoft Edge Tweaks !
