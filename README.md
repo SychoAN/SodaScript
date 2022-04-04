@@ -74,42 +74,42 @@ Your support will reflect our development for the better.
 ## ChangeLog
 ```SodaScript_v2.8```
 Browsers Tweaks 💯
--Microsoft Edge Tweaks !
--Google Chrome Tweaks !
--Firefox Amazing Tweaks !
--More Scheduled Tasks To Disable !
+Microsoft Edge Tweaks !
+Google Chrome Tweaks !
+Firefox Amazing Tweaks !
+More Scheduled Tasks To Disable !
 ```SodaScript 2.7```
--Disabled Office Telemetry !
--More Scheduled Tasks to Disable !
--AutoLogger Tweaks !
--USB Tweaks !
--Disabled security and maintenance annoying Notification !
--Disabled DMA Remapping !
--New Ping & PacketLoss Tweaks !
--New Gaming Tweaks !
--Fixed Security and Maintence Error Notification !
+Disabled Office Telemetry !
+More Scheduled Tasks to Disable !
+AutoLogger Tweaks !
+USB Tweaks !
+Disabled security and maintenance annoying Notification !
+Disabled DMA Remapping !
+New Ping & PacketLoss Tweaks !
+New Gaming Tweaks !
+Fixed Security and Maintence Error Notification !
 ```SodaScript 2.6```
--Update Checker !
--Better Information While Working !
+Update Checker !
+Better Information While Working !
 ```SodaScript 2.5```
 Fixed Creating Program Files Folder.
 Added Clean Memory With Shortcut Ctrl+F1
 Added Clean Temp With Shortcut Ctrl+F2
 ```SodaScript 2.4```
--Fixed Output Errors
--More Animation Tweaks !
--More Devices To Disable !
--More Storage Tweaks !
--More Gaming Tweaks !
--Removed Share Button from Context Menu
--Fixed More For Low end pc Selection Errors...
--Fixed thumbnails issue
+Fixed Output Errors
+More Animation Tweaks !
+More Devices To Disable !
+More Storage Tweaks !
+More Gaming Tweaks !
+Removed Share Button from Context Menu
+Fixed More For Low end pc Selection Errors...
+Fixed thumbnails issue
 ```SodaScript 2.3```
--Fixed Nvidia DLL Error Message
--Disabled Open File security warning
--General Bug Fixes
+Fixed Nvidia DLL Error Message
+Disabled Open File security warning
+General Bug Fixes
 ```SodaScript 2.2```
--General Bug Fixing
+General Bug Fixing
 ```SodaScript 2.1```
 Fixed Security and Maintence Error Message !
 Disabled Windows Sounds !
