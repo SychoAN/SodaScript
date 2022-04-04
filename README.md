@@ -72,7 +72,7 @@ Your support will reflect our development for the better.
 - Abdullah Nabil - [Telegram](https://t.me/A_Sycho_N)
 
 ## ChangeLog
-```SodaScript_v2.8```
+```Soda Script_v2.8```
 
 Browsers Tweaks 💯
 
@@ -84,7 +84,7 @@ Firefox Amazing Tweaks !
 
 More Scheduled Tasks To Disable !
 
-```SodaScript 2.7```
+```Soda Script 2.7```
 
 Disabled Office Telemetry !
 
@@ -104,13 +104,13 @@ New Gaming Tweaks !
 
 Fixed Security and Maintence Error Notification !
 
-```SodaScript 2.6```
+```Soda Script 2.6```
 
 Update Checker !
 
 Better Information While Working !
 
-```SodaScript 2.5```
+```Soda Script 2.5```
 
 Fixed Creating Program Files Folder.
 
@@ -118,7 +118,7 @@ Added Clean Memory With Shortcut Ctrl+F1
 
 Added Clean Temp With Shortcut Ctrl+F2
 
-```SodaScript 2.4```
+```Soda Script 2.4```
 
 Fixed Output Errors
 
@@ -136,7 +136,7 @@ Fixed More For Low end pc Selection Errors...
 
 Fixed thumbnails issue
 
-```SodaScript 2.3```
+```Soda Script 2.3```
 
 Fixed Nvidia DLL Error Message
 
@@ -144,11 +144,11 @@ Disabled Open File security warning
 
 General Bug Fixes
 
-```SodaScript 2.2```
+```Soda Script 2.2```
 
 General Bug Fixing
 
-```SodaScript 2.1```
+```Soda Script 2.1```
 
 Fixed Security and Maintence Error Message !
 
