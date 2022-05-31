@@ -69,7 +69,7 @@ Your support will reflect our development for the better.
 
 ![Alt Test](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/320px-YouTube_Logo_2017.svg.png)
 
-- Abdullah Nabil - [Telegram](https://t.me/A_Sycho_N)
+- Abdullah Nabil - [Telegram](https://t.me/Sycho_AN)
 - Ehab Emad - [Telegram](https://t.me/Ehab05)
 
 ## ChangeLog
