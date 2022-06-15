@@ -8,21 +8,15 @@ An advanced & integrated PowerShell script, -more than any other PowerShell scri
 
 ## COMPATIBILITY
 
-Soda focuses and works efficiently on the latest versions of Windows 10 supported by Microsoft. (21H2:20H2)
+Soda focuses and works efficiently on the latest versions of Windows 10 & 11 that are supported by Microsoft.
 
 Running Soda on previous versions of Windows that are not supported by Microsoft will be at your own risk. Soda has not been tested on them, and errors may occur with them.
-
- **Windows 11:**
-
-Soda is not ready for Windows 11 yet. Running it on Windows 11 will be at your own risk.
-
-However, we are planning to release a new Soda ready for Windows 11 in the near future...
 
 ## DOWNLOAD
 
 Download the latest Soda release:
 
-[Download](https://github.com/SychoAN/SodaScript/releases/download/2.7/SodaScript.ps1)
+[Download](https://github.com/SychoAN/SodaScript/releases/latest/download/SodaScript.ps1)
 
 ## WARNING
 
