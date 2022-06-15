@@ -67,9 +67,69 @@ Your support will reflect our development for the better.
 - Ehab Emad - [Telegram](https://t.me/Ehab05)
 
 ## ChangeLog
+```Soda Script_v3.2```
+Supported Windows 11
+Fixed Bloatware Remover
+New Script UI 
+
+```Soda Script_v3.1```
+Fixed Script Updater !
+
+Fixed TimerResolution Service already Exists ERROR
+
+Fixed Access Denied while disabling some services
+
+Updated SvcHost Split Threshold
+
+Updated Micorosoft Edge Uninstaller
+
+Updated Windows Deffender Disabler
+
+Updated HDD TWEAKS
+
+Added Disable Settings Header Tweak
+
+Added Disable show number of new notifications on Action Center
+
+New Ntfs & Ram Tweaks
+
+Added Remove Edit with Paint 3D From Right Click Menu
+
+Many programs have been discontinued !
+
+```Soda Script_v3.0```
+Telemetry New Tweaks
+
+New Ping & PacketLoss Tweaks
+
+New Edge Tweaks
+
+New Chrome Tweaks
+
+New Brave Tweaks
+
+Fixed Some Issues With files location
+
+Fixed Windows Sounds Disabler
+
+Disabled Folder Contents Info
+
+```Soda Script_v2.9```
+Fixed Tweaks Registry Check. Some Tweaks Wasn't Working ):
+
+No Shortcut Arrows !
+
+New Gaming Tweaks !
+
+Fixed Microsoft Edge Uninstaller !
+
+Added AeroLite Theme IN AdvancedTab/More For Low End Device
+
+Disabled Automatic Updates !
+
 ```Soda Script_v2.8```
 
-Browsers Tweaks 💯
+Browsers Tweaks 
 
 Microsoft Edge Tweaks !
 
