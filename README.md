@@ -29,7 +29,8 @@ If you suspect that a script may harm your device, remember that it is open sour
 ## USAGE
 There are many ways to run a PowerShell script, and we will refer to the easiest & fastest:
 
-1. Download Soda .zip archive from the [DOWNLOAD](https://github.com/SychoAN/SodaScriptTEST/blob/main/README.md#download) section above, and extract it in some path.
+1. Download Soda .zip archive from the [DOWNLOAD](https://github.com/SychoAN/SodaScriptTEST/blob/main/README.md#download) section above, and extract it in location that not containing any spaces or things like | @$^&*
+You can just Put it in C: Partition directly
 
 2. Navigate to the path where you extracted the .zip archive, locate ```SodaScript.ps1``` file, Right-click on it, and click on ```Run with PowerShell```.
 
