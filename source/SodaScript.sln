@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SodaScript", "SodaScript\SodaScript.csproj", "{7886B4C3-48A4-457F-9C56-5A8E16DFB939}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7886B4C3-48A4-457F-9C56-5A8E16DFB939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7886B4C3-48A4-457F-9C56-5A8E16DFB939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7886B4C3-48A4-457F-9C56-5A8E16DFB939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7886B4C3-48A4-457F-9C56-5A8E16DFB939}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F6D70B7-3902-4BD6-B643-E933EC68BE64}
+	EndGlobalSection
+EndGlobal
