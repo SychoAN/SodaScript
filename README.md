@@ -19,9 +19,11 @@ Download the latest Soda release:
 [Download](https://github.com/SychoAN/SodaScript/releases/latest)
 
 ## USAGE
-1. Simply download the exe file
+1. Simply download the ps1 file
 
-2. Run & Accept UAC
+2. Right click and Choose "Run With Powershell"
+
+3. Accept UAC
 
 ## SUPPORT
 
@@ -45,6 +47,58 @@ Your support will reflect our development for the better.
 - Ehab Emad - [Telegram](https://t.me/Ehab05)
 
 ## ChangeLog
+```Soda Script_v4.3```
+-Returned To the BOOS (Powershell)
+-Now the interface is simple & There's no Popups anymore
+-Safe Tweaks
+-Nothing important will be removed & even xbox game bar ( some are using it )
+
+```Soda Script_v4.2```
+now tweaking is faster than before
+new ping tweaks
+fixed nvidia error while optimizing
+fixed windows 10 bloatware remover
+added "dont add "- shortcut" when creating a shortcut"
+
+```Soda Script_v4.1```
+Edited the design of the app
+Removed "Disable Startup apps delay"
+Added UpdateChecker
+Fixed Firefox Tweaks Error
+Disabled Firefox Background Updater Service
+fixed Disable Windows Deffender
+Added Disable Office OLE
+Added More Browsers Tweaks
+
+```Soda Script_v4.0```
+-Made In C# Instead
+-Rewrote the Codes from scratch !
+-Fixed Some WIFI issues
+-Optimized Soda PowerPlan
+-Safe Tweaks 100%
+-Fixed win11 Breaked Colors
+-Fixed Some Memory Tweaks
+-Removed ThreadPriority
+-ADDED SecondLevelDataCache
+-Edited Log File Name
+-New Gaming Tweaks
+
+Download .Net 6 Runtime (x86 or x64) from here : https://dotnet.microsoft.com/en-us/download/dotnet/6.0
+
+```Soda Script_v3.5```
+-Fixed TempCleaner deleting prefetch folder
+-Fixed CPU Stock Speed
+
+```Soda Script_v3.4```
+-Fixed Confirm Boxs
+-Improved SSD Tweaks
+-ADDED AutoRuns Tweaks
+-New Graphics Card Tweaks
+-New Memory Tweaks
+-Added Logging Tweaks
+-Show File Name Extensions
+-sysmain will be disabled only on SSD
+
 ```Soda Script_v3.3```
 Fixed TimerResolation service
 Fixed a lot of confirm questions
