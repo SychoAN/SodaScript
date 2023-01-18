@@ -229,26 +229,12 @@ Foreach ($Feature in (Get-WindowsOptionalFeature -Online).FeatureName) {
 #----------#----------#----------#----------#----------#----------#----------#----------#----------#----------#----------#----------#
 Write-Host "Disabling Unnecessery Services..."
 $Services = @(
-	"AJRouter" #AllJoyn Router Service. This is a service that lets you connect Windows to the Internet of Things and communicate with devices such as smart TVs, refrigerators, light bulbs, thermostats, etc.
-	"tzautoupdate" #Auto Time Zone Updater
 "DiagTrack" #Connected User Experiences and Telemetry. If you're concerned with privacy and don't want to send usage data to Microsoft for analysis, then this service is one to go.
 "DusmSvc" #Data Usage
-	"MapsBroker" #Downloaded Maps Manager
-	"fhsvc" #File History Service
 "iphlpsvc" #IP Helper
-	"CscService" #Offline Files
-	"p2pimsvc" #Peer Networking Identity Manager
-	"pla" # Performance Logs & Alerts
-	"QWAVE" #Quality Windows Audio Video Experience
-	"RetailDemo" #Retail Demo Service
-	"SNMPTRAP" #SNMP Trap
 "seclogon" #Secondary Logon
 "ShellHWDetection" #Shell Hardware Detection
-	"wmiApSrv" # WMI Performance Adapter
 "WerSvc" #Windows Error Reporting
-	"wisvc" # Windows Insider Service
-	"WSearch" #Windows Search
-	"W32Time" #Windows Time
 	)
 Foreach ($Service in (Get-Service).Name) {
 	If ($Service -in $Services) {
