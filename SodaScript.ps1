@@ -11,7 +11,7 @@ function Set-ConsoleColor ($bc, $fc) {
 }
 mode con: cols=115 lines=30
 Set-ConsoleColor 'Black' 'Red'
-$host.ui.RawUI.WindowTitle = "SodaScript_v4.3"
+$host.ui.RawUI.WindowTitle = "SodaScript_v4.4"
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#- SYSTEM INFORMATION #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
 $global:progressPreference = 'silentlyContinue'
 Write-Host "Getting System Information..."
@@ -365,7 +365,6 @@ Get-ScheduledTask -TaskName "OfficeTelemetryAgentLogOn2016" -ea SilentlyContinue
 Get-ScheduledTask -TaskName "OfficeTelemetryAgentFallBack" -ea SilentlyContinue | Disable-ScheduledTask | Out-Null
 Get-ScheduledTask -TaskName "OfficeTelemetryAgentLogOn" -ea SilentlyContinue | Disable-ScheduledTask | Out-Null
 #----------#----------#----------#----------#----------#----------#----------#----------#----------#----------#----------#----------#
-<#
 Write-Host "StorageTweaks..."
 #Storage Tweaks
 	fsutil behavior set disablecompression 1 | Out-Null
@@ -429,7 +428,6 @@ bcdedit /timeout 0 | Out-Null
 
 #Enable F8 boot menu options
 bcdedit /set `{current`} bootmenupolicy Legacy | Out-Null
-#>
 #----------#----------#----------#----------#----------#----------#----------#----------#----------#----------#----------#----------#
 #ForAllCards
 
@@ -912,8 +910,11 @@ Desktop2
 	Set-ItemProperty -LiteralPath 'HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager' -Name 'CoalescingTimerInterval' -Value 0 -Force | Out-Null
 	
 	#Disable Application Impact Telemetry
+	if((Test-Path -LiteralPath "HKLM:\SOFTWARE\Policies\Microsoft\Windows\AppCompat") -ne $true) {  New-Item "HKLM:\SOFTWARE\Policies\Microsoft\Windows\AppCompat" -force | Out-Null };
 	Set-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\AppCompat' -Name 'AITEnable' -Value 0 -Force | Out-Null
 	
+	if((Test-Path -LiteralPath "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer") -ne $true) {  New-Item "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer" -force | Out-Null };
+	New-ItemProperty -LiteralPath 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer' -Name 'EnableAutoTray' -Value 0 -PropertyType DWord -Force | Out-Null
 	Reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Search" /v "BackgroundAppGlobalToggle" /t Reg_DWORD /d "0" /f | Out-Null
 	Reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications" /v "GlobalUserDisabled" /t Reg_DWORD /d "1" /f | Out-Null
 
@@ -1262,7 +1263,7 @@ Desktop2
 	
 #ExplorerTweaks
 	$Explorer = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer"
-	if((Test-Path -LiteralPath $Explorer) -ne $true) {  New-Item $Explorer2 -force | Out-Null };
+	if((Test-Path -LiteralPath $Explorer) -ne $true) {  New-Item $Explorer -force | Out-Null };
 		Set-ItemProperty $Explorer NoInstrumentation -Value 1 -Force
 		Set-ItemProperty $Explorer DisableThumbnails -Value - -Force -ErrorAction SilentlyContinue
 
@@ -1924,6 +1925,7 @@ Write-Host "The Maximum Transmission Unit (MTU) has been set to $BufferSize"
 }
 Function SSDOnly{
 	Write-Host "SSD Tweaks..."
+	#fix SSD Freezing issue (by disabling powersaving on ssd)
 	if((Test-Path -LiteralPath "HKLM:\SYSTEM\CurrentControlSet\services\iaStor\Parameters\Port0") -ne $true) {  New-Item "HKLM:\SYSTEM\CurrentControlSet\services\iaStor\Parameters\Port0" -force | Out-Null };
 	if((Test-Path -LiteralPath "HKLM:\SYSTEM\CurrentControlSet\services\iaStor\Parameters\Port1") -ne $true) {  New-Item "HKLM:\SYSTEM\CurrentControlSet\services\iaStor\Parameters\Port1" -force | Out-Null };
 	if((Test-Path -LiteralPath "HKLM:\SYSTEM\CurrentControlSet\services\iaStor\Parameters\Port2") -ne $true) {  New-Item "HKLM:\SYSTEM\CurrentControlSet\services\iaStor\Parameters\Port2" -force | Out-Null };
@@ -2076,14 +2078,9 @@ Function Desktop2 {
 Write-Host "Applying Gaming PowerPlan..."
 $PowerPlan = "Soda_Powerplan.pow"
 	If (Test-Path $Temporary\$PowerPlan) {
-		try {
-		powercfg -SETACTIVE "88888888-8888-8888-8888-888888888888"
-		}
-		catch {
 		powercfg -import $Temporary\$PowerPlan 88888888-8888-8888-8888-888888888888
 		powercfg -SETACTIVE "88888888-8888-8888-8888-888888888888"
-		}
-}
+	}
 #DiasblePowerThrottling
 if((Test-Path -LiteralPath "HKLM:\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling") -ne $true) {  New-Item "HKLM:\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling" -force | Out-Null };
 New-ItemProperty -LiteralPath 'HKLM:\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling' -Name 'PowerThrottlingOff' -Value 1 -PropertyType DWord -Force  | Out-Null
