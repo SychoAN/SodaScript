@@ -109,7 +109,7 @@ Write-Host "
 | O: Optimize          | R: Revert            |
 +----------------------+----------------------+
 " -ForegroundColor red
-	$scriptVersion = "SodaScript_v4.3"
+	$scriptVersion = "SodaScript_v4.4"
 	$UpdateCheck = (New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/SychoAN/SodaScript/master/latest.txt")
 	if ($UpdateCheck -eq $scriptVersion){
 	}
@@ -425,6 +425,9 @@ bcdedit /set usephysicaldestination No | Out-Null
 bcdedit /set vm No | Out-Null
 bcdedit /set vsmlaunchtype Off | Out-Null
 bcdedit /timeout 0 | Out-Null
+bcdedit /set useplatformtick yes | Out-Null
+bcdedit /set disabledynamictick yes | Out-Null
+bcdedit /set tscsyncpolicy enhanced | Out-Null
 
 #Enable F8 boot menu options
 bcdedit /set `{current`} bootmenupolicy Legacy | Out-Null
